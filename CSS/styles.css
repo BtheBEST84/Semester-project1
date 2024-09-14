@@ -44,13 +44,16 @@ header {
 nav {
     position: absolute;
     background: #FB7F67;
+    left: 0px;
+    top: 18%;
 }
 
 nav a {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 100px;
     text-decoration: none;
     color: black;
+    width: 100%;
 }
 
 .hamburger-icon {
@@ -84,6 +87,7 @@ nav a {
 
     .header-logo {
         width: 50%;
+        margin-left: 0;
     }
 }
 
