@@ -9,8 +9,7 @@ body {
   }
  
 .header-logo {
-    width: 190px;
-    margin-left: 33%;
+    width: 40%;
 }
 
 #homepage-image {
@@ -22,7 +21,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 nav, 
@@ -30,23 +29,24 @@ nav,
     display: none;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
 #menu-checkbox:checked ~ nav {
     display: block;
 }
 
 header {   
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
     position: absolute;
     background: #FB7F67;
-    padding-right: 20px;
-    right: 0px;
-    top: 130px;
 }
 
 nav a {
@@ -57,10 +57,8 @@ nav a {
 }
 
 .hamburger-icon {
-    font-size: 2rem;
+    font-size: 3rem;
     align-self: flex-end;
-    margin-right: 15px;
-    height: 40px;
 }
 
 @media (min-width: 650px) {
@@ -74,7 +72,7 @@ nav a {
     nav {
         position: static;
         display: flex;
-        flex-direction: column
+        flex-direction: row;
     }
 
     .hamburger-icon {
@@ -87,7 +85,6 @@ nav a {
 
     .header-logo {
         width: 50%;
-        margin-left: 0;
     }
 }
 
@@ -96,26 +93,4 @@ footer {
     height: 500px;
     padding: 0px;
     width: 100%;
-}
-
-h2 {
-    color: white;
-}
-
-.social-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.social-links {
-    color: white;
-    font-size: 3rem;
-}
-
-.social-links-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-}
+} 
