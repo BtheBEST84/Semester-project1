@@ -64,6 +64,7 @@ nav {
   padding-right: 20px;
   right: 0px;
   top: 130px;
+  border-radius: 10px 0 0 10px;
 }
 
 nav a {
@@ -87,7 +88,7 @@ nav a:hover {
 
 footer {
   background: black;
-  height: 500px;
+  height: 300px;
   padding: 0px;
   width: 100%;
   margin-top: 50px;
@@ -101,12 +102,21 @@ h2 {
 
 h3 {
   color: white;
+  margin: 10px;
 }
 
-.social-div {
+.footer-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-div a {
+    color: white;
+}
+
+.footer-div a:hover {
+    color: #fb7f67;
 }
 
 .social-links {
@@ -131,6 +141,12 @@ h3 {
   text-align: center;
   font-size: 2rem;
   margin-top: 10px;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
 }
 
 
