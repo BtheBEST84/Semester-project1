@@ -60,7 +60,7 @@ header {
 
 nav {
   position: absolute;
-  background: aliceblue;
+  background: rgb(223, 233, 230);
   padding-right: 20px;
   right: 0px;
   top: 135px;
@@ -137,6 +137,13 @@ h3 {
     border-radius: 50%;
 }
 
+.exhibition-description {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1rem;
+}
+
 #theme-title {
   text-align: center;
   font-size: 2rem;
@@ -160,12 +167,13 @@ h3 {
 
   nav {
     position: static;
-    background-color: aliceblue;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-right: 0px;
+    border-radius: 0px;
   }
 
   section {
