@@ -21,7 +21,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0 20px 0; 
+    padding: 20px 0 50px 0px; 
     
 }
 
@@ -33,6 +33,7 @@ section {
 .homepage-image {
   width: 100%;
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 #title-home-page {
@@ -134,14 +135,18 @@ h3 {
 .active-nav-a {
     text-decoration: underline;
     text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.5rem;
     border-radius: 50%;
 }
 
 .exhibition-description {
     width: 80%;
-    padding-top: 50px;
     padding-bottom: 50px;
     font-size: 1rem;
+}
+
+.exhibition-description-bold {
+    font-weight: 800;
 }
 
 #theme-title {
