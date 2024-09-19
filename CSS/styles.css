@@ -27,7 +27,7 @@ article {
 
 .header-logo {
   width: 190px;
-  margin-left: 33%;
+  margin-left: 0;
 }
 
 .article-image {
@@ -54,9 +54,10 @@ nav,
 }
 
 header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -85,6 +86,9 @@ nav a:hover {
   align-self: flex-end;
   margin-right: 15px;
   height: 40px;
+  position: absolute;
+  right: 0px;
+  top: 95px;
 }
 
 footer {
