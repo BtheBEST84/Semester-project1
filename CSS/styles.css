@@ -1,5 +1,5 @@
 body {
-  background: #F9416A;
+  background: #f9416a;
   font-family: "Baloo 2", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -8,21 +8,20 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 article {
-    background-color: rgb(223, 233, 230);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 99%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0 50px 0px; 
-    
+  background-color: rgb(223, 233, 230);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 50px 0px;
 }
 
 .header-logo {
@@ -55,9 +54,9 @@ nav,
 
 header {
   position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav {
@@ -78,7 +77,7 @@ nav a {
 }
 
 nav a:hover {
-    background: pink;
+  background: pink;
 }
 
 .hamburger-icon {
@@ -100,15 +99,15 @@ footer {
 }
 
 h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin: 20px
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px;
 }
 
 h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 20px
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
 }
 
 h3 {
@@ -123,11 +122,11 @@ h3 {
 }
 
 .footer-div a {
-    color: white;
+  color: white;
 }
 
 .footer-div a:hover {
-    color: #fb7f67;
+  color: #fb7f67;
 }
 
 .social-links {
@@ -143,34 +142,34 @@ h3 {
 }
 
 .active-nav-a {
-    text-decoration: underline;
-    text-decoration-thickness: 0.2rem;
-    text-underline-offset: 0.5rem;
-    border-radius: 50%;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+  text-underline-offset: 0.5rem;
+  border-radius: 50%;
 }
 
 .exhibition-description {
-    width: 80%;
-    padding-bottom: 5px;
-    font-size: 1rem;
+  width: 80%;
+  padding-bottom: 5px;
+  font-size: 1rem;
 }
 
 .exhibition-description-bold {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 #theme-title {
   text-align: center;
   font-size: 2rem;
   margin-top: 10px;
+  color: black;
 }
 
 #copyright {
-    color: white;
-    text-align: center;
-    margin-top: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
 }
-
 
 @media (min-width: 650px) {
   header {
@@ -195,6 +194,12 @@ h3 {
     width: 100%;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
   .hamburger-icon {
     display: none;
   }
@@ -218,13 +223,11 @@ h3 {
 }
 
 @media (min-width: 1100px) {
-    nav a {
-        font-size: 2rem;
-    }
-    article {
-    width: 70%;
-    border-radius: 2%;
+  nav a {
+    font-size: 2rem;
   }
-
- 
+  article {
+    width: 70%;
+    border-radius: 15px;
+  }
 }
