@@ -2,6 +2,10 @@ body {
   background: #44d5e1;
 }
 
+#contact.hamburger-icon {
+    background: #44d5e1;
+}
+
 
 .contact-form {
   display: flex;

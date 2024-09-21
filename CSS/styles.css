@@ -89,14 +89,13 @@ nav a:hover {
   position: fixed;
   right: 0px;
   top: 95px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-#home {
-    background: #f9416a;
-    padding: 5px;
-    border-radius: 5px;
+#home.hamburger-icon {
+  background: #f9416a;
 }
-
 
 footer {
   background: black;
@@ -209,9 +208,9 @@ h3 {
   .exhibitions-a-large {
     display: inline;
   }
- .exhibitions-a-small {
+  .exhibitions-a-small {
     display: none;
-}
+  }
   .hamburger-icon {
     display: none;
   }
