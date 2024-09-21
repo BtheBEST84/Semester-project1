@@ -1,0 +1,16 @@
+article.privacy-terms {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-privacy-terms {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 730px) {
+  .header-privacy-terms {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

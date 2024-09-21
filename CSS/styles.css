@@ -1,4 +1,5 @@
 @import url(./exhibitions.css);
+@import url(./privacy-terms.css);
 
 body {
   background: #f9416a;
@@ -24,6 +25,13 @@ article {
   flex-direction: column;
   align-items: center;
   padding: 20px 0 50px 0px;
+}
+
+article.privacy-terms {
+    
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .header-logo {
