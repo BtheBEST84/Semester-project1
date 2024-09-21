@@ -1,3 +1,5 @@
+@import url(./exhibitions.css);
+
 body {
   background: #f9416a;
   font-family: "Baloo 2", sans-serif;
@@ -60,7 +62,7 @@ header {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   background: #e5eef0;
   padding-right: 20px;
   right: 0px;
@@ -112,6 +114,10 @@ h2 {
 h3 {
   color: white;
   margin: 10px;
+}
+
+.exhibitions-a-large {
+  display: none;
 }
 
 .article-text {
@@ -193,6 +199,12 @@ h3 {
   h2 {
     font-size: 2.5rem;
   }
+  .exhibitions-a-large {
+    display: inline;
+  }
+ .exhibitions-a-small {
+    display: none;
+}
   .hamburger-icon {
     display: none;
   }

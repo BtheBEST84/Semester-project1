@@ -1,0 +1,15 @@
+#exhibition-body {
+  background: #fa992d;
+}
+
+.exhibitions-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.exhibition-active-a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 0.3rem;
+  color: black;
+}
