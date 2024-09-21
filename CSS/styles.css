@@ -148,7 +148,7 @@ h3 {
 }
 
 .active-nav-a {
-  text-decoration: underline;
+  background-color: #44d5e1;
   text-decoration-thickness: 0.2rem;
   text-underline-offset: 0.5rem;
 }
