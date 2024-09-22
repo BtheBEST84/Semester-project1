@@ -11,14 +11,18 @@
     text-decoration: none;
 }
 
-.exhibitions-a-large {
-    display: inline;
-    flex-direction: row;
-}
+
 
 .exhibition-active-a {
   background: #fa992d;
   text-decoration-thickness: 0.3rem;
   text-underline-offset: 0.3rem;
   color: black;
+}
+
+@media (min-width: 730px) {
+  .exhibitions-a-large {
+    display: flex;
+    padding-left: 15%;
+  }
 }

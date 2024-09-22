@@ -1,5 +1,6 @@
 @import url(./exhibitions.css);
 @import url(./privacy-terms.css);
+@import url(./contact.css);
 
 body {
   background: #f9416a;
@@ -217,7 +218,7 @@ h3 {
     font-size: 2.5rem;
   }
   .exhibitions-a-large {
-    display: inline;
+    display: flex;
   }
   .exhibitions-a-small {
     display: none;
