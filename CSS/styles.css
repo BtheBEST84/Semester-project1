@@ -84,7 +84,7 @@ nav li a {
   font-size: 0.85rem;
 }
 
-ul, li {
+nav ul, nav li {
   list-style-type: none;
 }
 
@@ -226,7 +226,7 @@ h3 {
     display: none;
   }
 
-  ul {
+  nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
