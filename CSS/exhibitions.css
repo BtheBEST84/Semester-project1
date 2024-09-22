@@ -11,6 +11,11 @@
     text-decoration: none;
 }
 
+.exhibitions-a-large {
+    display: inline;
+    flex-direction: row;
+}
+
 .exhibition-active-a {
   background: #fa992d;
   text-decoration-thickness: 0.3rem;
