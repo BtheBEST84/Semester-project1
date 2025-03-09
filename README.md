@@ -28,6 +28,7 @@ To get a local copy up and running, follow these steps:
 1. Clone the repository:  
    ```sh
    git clone https://github.com/yourusername/museum-interactivity.git
+2. Open the index.html file in your preferred browser.
    
 ---
 
